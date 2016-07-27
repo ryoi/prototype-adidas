@@ -1,7 +1,12 @@
-.adidas-photo-container,
-.carousel {
+.carousel-adidas-pdp {
 	position: relative;
-	margin: 0 auto;
+	width: 100%;
+}
+.carousel-indicators {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	z-index: 10;
 }
 .carousel-indicators li {
 	border-color: black;
@@ -9,19 +14,32 @@
 .carousel-indicators li.active {
 	background-color: black;
 }
-.carousel-inner .item {
-	background-color: #e5e5e5;
+.carousel-inner {
+	width: 100%;
 	text-align: center;
 }
-.adidas-photo-container img,
+.carousel-inner .item {
+	text-align: center;
+}
 .carousel-inner .item img {
+	display: inline-block;
+	width: 900px;
+	margin: 0;
+	padding: 0;
+}
+.adidas-photo-container {
+	position: relative;
+	max-width: 900px;
+	margin: 0 auto;
+}
+.adidas-photo-container img {
 	display: inline-block;
 	margin: 0;
 	padding: 0;
 }
 .adidas-head {
 	position: relative;
-	margin: 0 0 20px 0;
+	margin: 0;
 	z-index: 100;
 	color: white;
 	background-color: rgba(0, 0, 0, 0.8);
@@ -45,7 +63,7 @@
   }
 }
 @media (min-width: 992px) {
-  .adidas-head {
+/*  .adidas-head {
   	position: fixed;
   	left: 0;
   	top: 0;
@@ -64,5 +82,5 @@
   .adidas-photo-container {
   	width: 100%;
   	margin: 0;
-  }
+  }*/
 }
