@@ -15,6 +15,7 @@
        -o-animation-duration: .5s;
           animation-duration: .5s;
 }
+.animated.fadeIn,
 .animated.bounceIn,
 .animated.bounceOut {
   -webkit-animation-duration: .75s;
@@ -26,15 +27,15 @@
        -o-animation-duration: 1.5s;
           animation-duration: 1.5s;
 }
-.ad-animate-delay-s {
+.adidas-animate-delay-s {
   -webkit-animation-delay: .7s;
   animation-delay: .7s;
 }
-.ad-animate-delay-m {
+.adidas-animate-delay-m {
   -webkit-animation-delay: 1.4s;
   animation-delay: 1.4s;
 }
-.ad-animate-delay-l {
+.adidas-animate-delay-l {
   -webkit-animation-delay: 2s;
   animation-delay: 2s;
 }

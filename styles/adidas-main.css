@@ -1,0 +1,68 @@
+.adidas-photo-container,
+.carousel {
+	position: relative;
+	margin: 0 auto;
+}
+.carousel-indicators li {
+	border-color: black;
+}
+.carousel-indicators li.active {
+	background-color: black;
+}
+.carousel-inner .item {
+	background-color: #e5e5e5;
+	text-align: center;
+}
+.adidas-photo-container img,
+.carousel-inner .item img {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+.adidas-head {
+	position: relative;
+	margin: 0 0 20px 0;
+	z-index: 100;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.adidas-store-nav {
+	position: relative;
+	list-style: none;
+	width: 400px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+.adidas-store-nav > li {
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 16px;
+	line-height: 24px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .adidas-pdp {
+  }
+}
+@media (min-width: 992px) {
+  .adidas-head {
+  	position: fixed;
+  	left: 0;
+  	top: 0;
+  	bottom: 0;
+  	width: 20%;
+  	height: 100%;
+  		background-color: rgba(0, 0, 0, 0.3);
+  }
+  .adidas-body {
+  	margin-left: 20%;
+  	overflow: hidden;
+  }
+  .adidas-pdp-visual {
+  	width: 70%;
+  }
+  .adidas-photo-container {
+  	width: 100%;
+  	margin: 0;
+  }
+}
