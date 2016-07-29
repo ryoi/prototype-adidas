@@ -16,10 +16,12 @@
     <link href="styles/index.css" rel="stylesheet">
   </head>
   <body class="adidas-pdp">
-    <div class="adidas-head">
+    <div id="adidas-head" class="adidas-head adidas-transition">
 
       <div class="adidas-topnav">
-        <!-- <div class="adidas-logo">adidas</div> -->
+        <div class="adidas-logo adidas-transition">
+          <img src="assets/images/adi_logo_16ss.png" />
+        </div>
         <ul class="adidas-store-nav">
           <li>
             Mens
@@ -56,20 +58,24 @@
         <div class="adidas-pdp-visual">
 
           <div id="carousel-adidas-pdp" class="carousel slide animated fadeIn adidas-animate-delay-s" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carousel-adidas-pdp" data-slide-to="0" class="active"></li>
+
+
+            <ul class="carousel-indicators clearfix">
+              <li data-target="#carousel-adidas-pdp" data-slide-to="0" class="active">
+                <img src="http://shop.adidas.jp/photo/16FW/AY8123/zz-AY8123-01.jpg" alt="1">
+              </li>
               <li data-target="#carousel-adidas-pdp" data-slide-to="1"></li>
               <li data-target="#carousel-adidas-pdp" data-slide-to="2"></li>
-            </ol>
+            </ul>
             <div class="carousel-inner" role="listbox">
               <div class="item active">
-                <img src="assets/images/zz-AY7708-01.jpg" alt="1">
+                <img src="http://shop.adidas.jp/photo/16FW/AY8123/zz-AY8123-01.jpg" alt="1">
               </div>
               <div class="item">
                 <img src="assets/images/zz-AY7708-03.jpg" alt="2">
               </div>
               <div class="item">
-                <img src="assets/images/zz-AY7708-06.jpg" alt="3">
+                <img src="http://shop.adidas.jp/photo/16FW/AY8132/zz-AY8132-03.jpg" alt="3">
               </div>
             </div>
           </div>
@@ -98,7 +104,65 @@
 
         </div>
         <div id="sidebar" class="adidas-pdp-summary sticky">
-          summary
+          <div class="adidas-product-brand-line">
+            adidas originals
+          </div>
+          <div class="adidas-product-name">
+            <h3>TREFOIL TEE DRESS</h3>
+            <h4>ワンピース　Tシャツ</h4>
+          </div>
+          <div class="adidas-product-price">
+            <span class="currency">￥</span><span class="price-value">6,823</span><span class="price-tax"></span>
+          </div>
+          <div class="adidas-ppd-actions">
+            <div class="adidas-product-look-picker">
+              <ul class="adidas-product-looks">
+                <li>
+                  <img src="" />
+                </li>
+              </ul>
+            </div>
+
+            <div class="adidas-pdp-select-group clearfix">
+              <div class="adidas-pdp-select-size">
+                choose size
+              </div>
+              <div class="adidas-pdp-select-qty">
+                choose qty
+              </div>
+            </div>
+            <div class="adidas-pdp-select-group secondary clearfix">
+              <div class="adidas-pdp-select-size">
+                sizing chart
+              </div>
+            </div>
+
+            <div class="adidas-pdp-cta">
+              <div class="btn-block adidas-cta-primary">Add to Cart</div>
+              <div class="btn adidas-cta-secondary">Add to Fav</div>
+            </div>
+
+            <div class="adidas-pdp-shipping">
+              delivery window: 2016/9/1 - 5
+            </div>
+
+            <div class="adidas-product-privilege">
+              <ul class="adidas-product-privilege-list">
+                <li>
+                  Free Shipping
+                </li>
+              </ul>
+            </div>
+
+            <ul class="adidas-product-social">
+              <li>
+                Facebook
+              </li>
+            </ul>
+
+
+          </div>
+
         </div>
 
       </div>
@@ -128,13 +192,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.sticky.js"></script>
     <script src="assets/js/sticky-kit.js"></script>
     <script type="text/javascript">
       $(document).ready(function(){
+        $("#adidas-head").sticky({
+          topSpacing: 0,
+          zIndex: 100
+        });
+        $(".sticky").stick_in_parent();
         $('.carousel').carousel({
           interval: null
         });
-        $(".sticky").stick_in_parent();
       });
     </script>
   </body>

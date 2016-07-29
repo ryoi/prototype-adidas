@@ -4,6 +4,10 @@ body {
 img {
 	max-width: 100%;
 }
+.adidas-transition {
+  -webkit-transition: all .07s linear;
+          transition: all .07s linear;
+}
 .clearfix:after {
   content:"";
   display:block;
@@ -19,7 +23,7 @@ img {
 
 }
 .adidas-test-color-minor {
-	
+
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .adidas-pdp {

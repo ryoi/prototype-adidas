@@ -7,12 +7,30 @@
 	top: 20px;
 	left: 20px;
 	z-index: 10;
+  width: 160px;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  font-size: 0;
+  list-style: none;
 }
 .carousel-indicators li {
-	border-color: black;
+  display: block;
+  float: left;
+	width: 68px;
+  height: 68px;
+  margin: 0 10px 10px 0;
+  border-color: #ddd;
+  border-radius: 0;
+  text-indent: 0;
+}
+.carousel-indicators li img {
 }
 .carousel-indicators li.active {
-	background-color: black;
+  width: 68px;
+  height: 68px;
+  margin: 0 10px 10px 0;
+	border-color: black;
 }
 .carousel-inner {
 	width: 100%;
@@ -36,27 +54,70 @@
 	margin: 0;
 	padding: 0;
 }
+.sticky-wrapper {
+  z-index: 100;
+}
+
+
+
+.sticky-wrapper,
 .adidas-head {
-	position: relative;
-	margin: 0;
+	position: absolute;
+  width: 100%;
+  height: 64px !important;
+	top: 0;
+  left: 0;
 	z-index: 100;
 	color: white;
-	background-color: rgba(0, 0, 0, 0.8);
+}
+.adidas-head {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.adidas-logo {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 10;
+  width: 50px;
 }
 .adidas-store-nav {
 	position: relative;
 	list-style: none;
-	width: 400px;
+	width: 500px;
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
 }
 .adidas-store-nav > li {
 	display: inline-block;
-	padding: 10px 20px;
-	font-size: 16px;
-	line-height: 24px;
+  margin: 0 10px;
+	padding: 0 20px;
+	font-size: 14px;
+	line-height: 64px;
+  text-transform: uppercase;
+  color: #aaa;
 }
+.adidas-store-nav > li:hover {
+  cursor: pointer;
+  color: white;
+}
+.is-sticky .adidas-head,
+.is-sticky .sticky-wrapper {
+  height: 44px !important;
+}
+.is-sticky .adidas-store-nav > li {
+  line-height: 44px;
+}
+.is-sticky .adidas-logo {
+  top: 8px;
+  width: 40px;
+}
+
+.adidas-body {
+  margin-top: 64px;
+}
+
+
 @media (min-width: 768px) and (max-width: 991px) {
   .adidas-pdp {
   }
