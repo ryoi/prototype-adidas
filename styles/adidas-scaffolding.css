@@ -9,6 +9,18 @@ img {
   display:block;
   clear:both;
 }
+.adidas-color-brand-primary {
+
+}
+.adidas-text-color-primary {
+
+}
+.adidas-text-color-secondary {
+
+}
+.adidas-test-color-minor {
+	
+}
 @media (min-width: 768px) and (max-width: 991px) {
   .adidas-pdp {
   }

@@ -62,8 +62,17 @@
   }
 }
 @media (min-width: 992px) {
+	.adidas-pdp-main {
+		background-color: #eee;
+	}
   .adidas-pdp-visual {
+    float: left;
     width: 66%;
+  }
+  .adidas-pdp-summary {
+  	float: right;
+  	width: 34%;
+  	padding: 40px;
   }
 /*  .adidas-head {
   	position: fixed;
