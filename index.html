@@ -16,12 +16,23 @@
     <link href="styles/index.css" rel="stylesheet">
   </head>
   <body class="adidas-pdp">
-    <div id="adidas-head" class="adidas-head adidas-transition">
 
+    <div id="adidas-head" class="adidas-head adidas-transition">
       <div class="adidas-topnav">
         <div class="adidas-logo adidas-transition">
           <img src="assets/images/adi_logo_16ss.png" />
         </div>
+        <ul class="adidas-user-nav">
+          <li>
+            <div class="glyphicon glyphicon-user"></div>
+          </li>
+          <li>
+            <div class="glyphicon glyphicon-shopping-cart"></div>
+          </li>
+          <li>
+            <div class="glyphicon glyphicon-search"></div>
+          </li>
+        </ul>
         <ul class="adidas-store-nav">
           <li>
             Mens
@@ -36,37 +47,26 @@
             Mi Adidas
           </li>
         </ul>
-
-<!--         <ul class="adidas-user-nav">
-          <li>
-            search
-          </li>
-          <li>
-            cart
-          </li>
-          <li>
-            account
-          </li>
-        </ul> -->
-        </div>
+      </div>
     </div>
+
     <div class="adidas-body">
       <div class="adidas-global-messages"></div>
       <div class="adidas-nav-breadcrumb"></div>
-      <div id="main" class="adidas-pdp-main clearfix">
+      <div id="main" class="adidas-pdp-main">
 
         <div class="adidas-pdp-visual">
 
-          <div id="carousel-adidas-pdp" class="carousel slide animated fadeIn adidas-animate-delay-s" data-ride="carousel">
+          <div id="carousel-adidas-pdp" class="carousel carousel-fade slide animated fadeIn adidas-animate-delay-s" data-ride="carousel">
 
-
-            <ul class="carousel-indicators clearfix">
+            <ul class="carousel-indicators clearfix sticky">
               <li data-target="#carousel-adidas-pdp" data-slide-to="0" class="active">
                 <img src="http://shop.adidas.jp/photo/16FW/AY8123/zz-AY8123-01.jpg" alt="1">
               </li>
               <li data-target="#carousel-adidas-pdp" data-slide-to="1"></li>
               <li data-target="#carousel-adidas-pdp" data-slide-to="2"></li>
             </ul>
+
             <div class="carousel-inner" role="listbox">
               <div class="item active">
                 <img src="http://shop.adidas.jp/photo/16FW/AY8123/zz-AY8123-01.jpg" alt="1">
@@ -79,6 +79,8 @@
               </div>
             </div>
           </div>
+
+          <div class="glyphicon glyphicon-heart-empty" data-toggle="tooltip" data-placement="bottom" title="お気に入りに登録"></div>
 
 <!--           <div class="adidas-photo-container animated fadeIn adidas-animate-delay-s">
             <div class="item">
@@ -175,6 +177,13 @@
           <h1>Hello, world!</h1>
           <h1>Hello, world!</h1>
           <h1>Hello, world!</h1>
+          <h1>Hello, world!</h1>
+          <h1>Hello, world!</h1>
+          <h1>Hello, world!</h1>
+          <h1>Hello, world!</h1>
+          <h1>Hello, world!</h1>
+          <h1>Hello, world!</h1>
+          <h1>Hello, world!</h1>
       </div>
       <div class="adidas-pdp-section pdp-review">
       </div>
@@ -196,13 +205,14 @@
     <script src="assets/js/sticky-kit.js"></script>
     <script type="text/javascript">
       $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip()
         $("#adidas-head").sticky({
           topSpacing: 0,
           zIndex: 100
         });
         $(".sticky").stick_in_parent();
         $('.carousel').carousel({
-          interval: null
+          interval: 3000
         });
       });
     </script>

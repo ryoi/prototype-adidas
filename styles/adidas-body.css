@@ -1,0 +1,45 @@
+.adidas-pdp-visual {
+	position: relative;
+	min-height: 320px;
+}
+.adidas-pdp-visual .glyphicon {
+	position: absolute;
+	top: 48px;
+	right: 37px;
+	z-index: 10;
+	font-size: 26px;
+	line-height: 26px;
+	color: #aaa;
+}
+.adidas-pdp-visual .glyphicon:hover {
+	cursor: pointer;
+	color: black;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .adidas-pdp {
+  }
+}
+@media (min-width: 992px) {
+/*	.adidas-body {
+	  margin-top: 64px;
+	}*/
+	.adidas-pdp-main {
+		position: relative;
+		background-color: #eee;
+		line-height: 0;
+	}
+  .adidas-pdp-visual {
+  	display: inline-block;
+    width: 66%;
+    min-height: 655px;
+  }
+  .adidas-pdp-summary {
+  	float: right;
+  	right: 0;
+  	width: 34%;
+  	padding: 50px 40px 40px 40px;
+  	font-size: 13px;
+  	line-height: 22px;
+  }
+}
