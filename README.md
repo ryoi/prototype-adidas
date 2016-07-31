@@ -1,6 +1,6 @@
 # PDP Prototype for Adidas
 
-[DEMO Page](https://pages.github.com/).
+[DEMO Page](https://ryoi.github.io/prototype-adidas/).
 
 - Only supports latest Chrome and Safari
 - Fully responsive layout. Can be viewed on mobile, tablet and desktop
