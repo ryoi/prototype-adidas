@@ -14,7 +14,7 @@
 }
 .adidas-pdp-visual .glyphicon:hover {
   cursor: pointer;
-  color: black;
+  color: #222;
 }
 .adidas-pdp-visual .glyphicon-share {
   top: 50px;
@@ -51,10 +51,16 @@
   font-weight: bold;
 }
 .adidas-product-rate {
+  display: block;
   float: right;
   width: auto;
   margin-top: 7px;
   color: #007feb;
+}
+a.adidas-product-rate:hover,
+a.adidas-product-rate:active {
+  color: #007feb;
+  text-decoration: none;
 }
 .adidas-product-rate-stars {
   display: inline-block;
@@ -211,15 +217,24 @@
   font-size: 12px;
 }
 .adidas-product-privilege {
-  margin: 10px 0 0 -24px;
+  float: left;
+  width: auto;
+  min-width: 253px;
+  margin: 20px 0;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: 1px solid rgba(0,0,0,.1);
+}
+.adidas-product-privilege-list {
+  margin: 0 0 0 -24px;
 }
 .adidas-product-privilege li {
   font-size: 14px;
-  color: #007feb;
 }
 .adidas-product-privilege li span {
-  color: black;
+  color: #222;
 }
+/* Section */ 
 .adidas-pdp-section {
   position: relative;
   width: 100%;
@@ -261,8 +276,9 @@
   font-size: 12px;
   font-weight: normal;
   line-height: 18px;
-  color: black;
+  color: #222;
 }
+/* Details */
 .adidas-pdp-overview {
   display: inline-block;
   position: relative;
@@ -305,16 +321,17 @@ ul.adidas-pdp-feature-list {
   width: 60px;
   height: 60px;
 }
-.adidas-pdp-feature-list .adidas-pdp-feature-desc {
-
-}
 .adidas-pdp-feature-list .adidas-pdp-feature-desc h5 {
   display: block;
   padding-bottom: 10px;
   font-size: 16px;
   font-weight: normal;
-  color: black;
+  color: #222;
 }
+.adidas-pdp-section-body {
+  position: relative;
+}
+/* Product List */
 .adidas-product-list {
   display: block;
   margin: 0;
@@ -327,7 +344,7 @@ ul.adidas-pdp-feature-list {
   position: relative;
   min-height: 112px;
   margin: 10px;
-  padding: 10px 10px 10px 100px;
+  padding: 10px 10px 10px 110px;
   border: 1px solid rgba(0,0,0,.1);
   background-color: white;
 }
@@ -336,12 +353,16 @@ ul.adidas-pdp-feature-list {
   position: absolute;
   top: 10px;
   left: 10px;
-  width: 70px;
+  width: 80px;
   height: 90px;
 }
 .adidas-product-list .adidas-product-info {
   display: block;
   text-align: left;
+}
+.adidas-product-list .adidas-product-info h5 {
+  font-weight: normal;
+  color: #333;
 }
 .adidas-product-list .adidas-product-price {
   font-size: 14px;
@@ -350,11 +371,128 @@ ul.adidas-pdp-feature-list {
 .adidas-product-list .adidas-product-rate-stars {
   position: absolute;
   bottom: 10px;
-  left: 100px;
+  left: 110px;
 }
 .adidas-pdp-section-nav {
   display: none;
 }
+.adidas-pdp-section.pdp-viewed .adidas-product-rate-stars {
+  display: none;
+}
+/* Review */
+.adidas-pdp-section.pdp-review .adidas-pdp-section-title {
+  padding-bottom: 10px;
+}
+.adidas-pdp-section-title .btn {
+  display: inline-block;
+  font-size: 11px;
+}
+.adidas-product-review-overall {
+  padding: 0 30px;
+}
+.adidas-product-review-overall .adidas-product-rate-stars {
+  padding: 10px 0;
+}
+.adidas-product-review-overall .adidas-product-rate-stars .glyphicon {
+  width: 22px;
+  height: 22px;
+  font-size: 20px;
+  line-height: 20px;
+}
+.adidas-product-review-overall > h5 {
+  position: relative;
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.adidas-product-review-breakdown,
+.adidas-product-review-summary {
+  width: 260px;
+  margin: 0 auto 20px;
+  padding: 20px;
+  border-radius: 3px;
+  background-color: #f2f2f2;
+}
+.adidas-bar {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.adidas-bar > li {
+  display: block;
+  position: relative;
+  margin-bottom: 5px;
+  text-align: left;
+  line-height: 0;
+}
+.adidas-bar li > * {
+  vertical-align: middle;
+}
+.adidas-bar > li h5 {
+  display: inline-block;
+  padding-right: 5px;
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: normal;
+}
+.adidas-bar .progress {
+  display: inline-block;
+  width: 150px;
+  height: 12px;
+  margin: 0 5px 0 0;
+  padding: 0;
+  border-radius: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+  background-color: white;
+}
+.progress .progress-bar {
+  background-color: #007feb;
+}
+.adidas-product-review-summary .adidas-bar > li {
+  margin-bottom: 8px;
+}
+.adidas-product-review-summary li h5 {
+  width: 50px;
+}
+.adidas-product-review-summary .progress {
+  height: auto;
+  overflow: visible;
+}
+.adidas-product-review-summary .progress.sub {
+  position: relative;
+  height: auto;
+  margin-left: 55px;
+  box-shadow: none;
+  border: 0;
+  background-color: transparent;
+  font-size: 9px;
+  line-height: 13px;
+}
+.adidas-product-review-summary .progress .progress-bar {
+  position: relative;
+  height: 8px;
+  background-color: #999;
+  overflow: visible;
+}
+.adidas-product-review-summary .progress .progress-bar:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: -2px;
+  height: 14px;
+  width: 4px;
+  margin-top: -7px;
+  background-color: #007feb;
+}
+.adidas-product-review-summary .progress.sub span:last-child {
+  position: absolute;
+  right: 0;
+}
+
 
 
 
@@ -383,6 +521,11 @@ ul.adidas-pdp-feature-list {
   }
   .adidas-pdp-summary.sticky.is_stuck {
     bottom: auto !important;
+  }
+  .adidas-product-list > li {
+    display: inline-block;
+    width: 45%;
+    margin: 10px 1%;
   }
 }
 @media (min-width: 992px) {
@@ -428,6 +571,86 @@ ul.adidas-pdp-feature-list {
   }
   .adidas-pdp-feature {
     width: 50%;
-    padding: 40px 30px 0 50px;
+    padding: 30px 30px 0 50px;
+  }
+  .adidas-product-list > li {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    padding: 0;
+    border: 0;
+  }
+  .adidas-product-list .adidas-image {
+    display: block;
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 200px;
+    height: 250px;
+  }
+  .adidas-product-list .adidas-product-info {
+    display: block;
+    text-align: left;
+    padding: 10px 20px;
+    height: 90px;
+  }
+  .adidas-product-list .adidas-product-price {
+    font-size: 14px;
+    font-weight: normal;
+  }
+  .adidas-product-list .adidas-product-rate-stars {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+  }
+  .adidas-pdp-section-nav {
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 120px;
+    margin-top: -60px;
+    border-radius: 3px;
+    background-color: rgba(0,0,0,.08);
+    color: #bbb;
+    text-align: center;
+  }
+  .adidas-pdp-section-nav .glyphicon {
+    line-height: 120px;
+  }
+  .adidas-pdp-section-nav.prev {
+    left: 20px;
+  }
+  .adidas-pdp-section-nav.next {
+    right: 20px;
+  }
+  .adidas-pdp-section-nav:hover {
+    cursor: pointer;
+    background-color: rgba(0,0,0,.12);
+  }
+  .adidas-pdp-section.pdp-viewed .adidas-product-list > li {
+    width: 150px;
+  }
+  .adidas-pdp-section.pdp-viewed .adidas-product-list .adidas-image {
+    width: 150px;
+    height: 180px;
+  }
+  .adidas-pdp-section.pdp-viewed .adidas-product-list .adidas-product-info {
+    height: 75px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

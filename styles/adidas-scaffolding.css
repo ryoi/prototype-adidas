@@ -51,13 +51,24 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 .adidas-text-color-primary {
-  color: black;
+  color: #222;
 }
 .adidas-text-color-secondary {
   color: #777;
 }
 .adidas-test-color-minor {
   color: #999;
+}
+.adidas-btn {
+  border: 0 !important;
+  border-radius: 3px;
+  color: white;
+  background-color: #007feb;
+}
+.adidas-btn:hover,
+.adidas-btn:active {
+  color: white;
+  background-color: #006fdb;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .adidas-pdp {
