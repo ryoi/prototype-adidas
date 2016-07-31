@@ -1,8 +1,14 @@
 body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   background-color: white;
 }
 img {
-	max-width: 100%;
+  max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
 }
 .adidas-transition {
   -webkit-transition: all .07s linear;
@@ -13,17 +19,44 @@ img {
   display:block;
   clear:both;
 }
+.tooltip-inner {
+  padding: 10px;
+  font-size: 12px;
+  color: #ccc;
+}
+.adidas-number {
+  font-family: ‘Lucida Console’, Monaco, monospace;
+/*  font-style: italic;*/
+}
+.adidas-image {
+  background-color: rgba(0,0,0,.1);
+  text-align: center;
+}
+.adidas-image:after {
+  content: "image";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  margin: -10px 0 0 -50px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #eee;
+}
 .adidas-color-brand-primary {
 
 }
 .adidas-text-color-primary {
-
+  color: black;
 }
 .adidas-text-color-secondary {
-
+  color: #666;
 }
 .adidas-test-color-minor {
-
+  color: #999;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .adidas-pdp {
