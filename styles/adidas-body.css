@@ -64,13 +64,14 @@
 }
 .adidas-product-rate-stars li {
   display: inline-block;
-  margin: 0 1px;
+  margin: 0;
   padding: 0;
 }
 .adidas-product-rate-stars .glyphicon {
   width: 8px;
   height: 8px;
   font-size: 10px;
+  color: #007feb;
 }
 .adidas-pdp-actions {
   padding: 15px 0;
@@ -228,14 +229,20 @@
   text-align: center;
   border-top: 1px solid rgba(0,0,0,.1);
 }
+.adidas-pdp-section > * {
+  vertical-align: top;
+}
 .adidas-pdp-section-title {
-  padding-bottom: 20px;
+  padding: 30px 30px 20px 30px;
   font-size: 18px;
   line-height: 24px;
   font-weight: normal;
 }
 .adidas-pdp-section:nth-child(even) {
   background-color: #f2f2f2;
+}
+.adidas-pdp-section-content {
+  padding: 0 30px;
 }
 .adidas-pdp-section-content ul {
   display: block;
@@ -260,14 +267,12 @@
   display: inline-block;
   position: relative;
   width: 100%;
-  padding: 30px 30px 0 30px;
   text-align: left;
 }
 .adidas-pdp-feature {
   display: inline-block;
   position: relative;
   width: 100%;
-  padding: 40px 30px 0 30px;
   text-align: left;
 }
 .adidas-pdp-feature:after {
@@ -291,7 +296,7 @@ ul.adidas-pdp-feature-list {
   position: relative;
   min-height: 60px;
   margin: 0 0 20px;
-  padding: 0 0 0 100px;
+  padding: 0 0 0 90px;
 }
 .adidas-pdp-feature-list .adidas-image {
   position: absolute;
@@ -310,9 +315,46 @@ ul.adidas-pdp-feature-list {
   font-weight: normal;
   color: black;
 }
-
-
-
+.adidas-product-list {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.adidas-product-list > li {
+  display: block;
+  position: relative;
+  min-height: 112px;
+  margin: 10px;
+  padding: 10px 10px 10px 100px;
+  border: 1px solid rgba(0,0,0,.1);
+  background-color: white;
+}
+.adidas-product-list .adidas-image {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 70px;
+  height: 90px;
+}
+.adidas-product-list .adidas-product-info {
+  display: block;
+  text-align: left;
+}
+.adidas-product-list .adidas-product-price {
+  font-size: 14px;
+  font-weight: normal;
+}
+.adidas-product-list .adidas-product-rate-stars {
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
+}
+.adidas-pdp-section-nav {
+  display: none;
+}
 
 
 
@@ -379,5 +421,13 @@ ul.adidas-pdp-feature-list {
   .adidas-product-name h3 {
     margin: 10px 0 5px;
     font-size: 24px;
+  }
+  .adidas-pdp-overview {
+    width: 40%;
+    padding: 30px 50px 0 30px;
+  }
+  .adidas-pdp-feature {
+    width: 50%;
+    padding: 40px 30px 0 50px;
   }
 }
