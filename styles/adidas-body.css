@@ -2,9 +2,6 @@
   position: relative;
   background-color: #efefef;
 }
-.adidas-nav-breadcrumb {
-  position: absolute;
-}
 .adidas-pdp-visual {
   position: relative;
   min-height: 320px;
@@ -29,8 +26,28 @@
   right: 20px;
   font-size: 22px;
 }
+.adidas-nav-breadcrumb {
+  display: block;
+  margin: 0;
+  padding: 30px 30px 0 27px;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: left;
+}
+.adidas-nav-breadcrumb li {
+  display: inline-block;
+}
+.adidas-nav-breadcrumb li:hover {
+  color: #007feb;
+  cursor: pointer;
+}
+.adidas-nav-breadcrumb .glyphicon {
+  margin: 0 2px;
+  color: #999;
+  font-size: 9px;
+}
 .adidas-pdp-summary {
-  padding: 30px;
+  padding: 0 30px 30px;
   color: #333;
 }
 .adidas-product-brand-line {
@@ -124,7 +141,7 @@ a.adidas-product-rate:active {
   background-color: #007feb;
 }
 .adidas-pdp-size-chart {
-  padding: 0 0 3px 0;
+  padding: 0 0 5px 0;
   text-align: right;
 }
 .adidas-pdp-select-group {
@@ -223,7 +240,7 @@ a.adidas-product-rate:active {
   float: left;
   width: auto;
   min-width: 253px;
-  margin: 20px 0;
+  margin: 20px 0 0;
   padding: 10px 20px;
   border-radius: 3px;
   border: 1px solid rgba(0,0,0,.1);
@@ -255,7 +272,7 @@ a.adidas-product-rate:active {
   line-height: 24px;
   font-weight: normal;
 }
-.adidas-pdp-section:nth-child(even) {
+.adidas-pdp-section:nth-child(odd) {
   background-color: #f2f2f2;
 }
 .adidas-pdp-section-content {
@@ -650,11 +667,22 @@ ul.adidas-pdp-feature-list {
     right: 77px;
     font-size: 26px;
   }
+  .adidas-nav-breadcrumb {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    width: 34%;
+    padding: 20px 30px 0 37px;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+  }
   .adidas-pdp-summary {
     float: right;
     right: 0;
     width: 34%;
-    padding: 30px 40px 40px 40px;
+    padding: 40px 40px 40px 40px;
     font-size: 13px;
     line-height: 22px;
   }
