@@ -83,12 +83,12 @@
   color: white;
 }
 /* when sticky */
-/*.is-sticky .adidas-head {
+.is-sticky .adidas-head {
   height: 40px;
 }
 .is-sticky .adidas-store-nav {
   display: none;
-}*/
+}
 @media (min-width: 768px) and (max-width: 991px) {
   .sticky-wrapper {
     height: 50px !important;
