@@ -1,7 +1,6 @@
 # PDP Prototype for Adidas
 
-See DEMO page [here](https://ryoi.github.io/prototype-adidas/).
-Only supports latest Chrome and Safari
+See DEMO page [here](https://ryoi.github.io/prototype-adidas/). (Only supports latest Chrome and Safari.)
 
 ## Design Goals
 - Identify the brand image - energized & cool
