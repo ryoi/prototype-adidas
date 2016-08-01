@@ -22,7 +22,7 @@ See DEMO page [here](https://ryoi.github.io/prototype-adidas/).
 
 ## Not included, TODO
 - Global nav
-  - Simplified header: merge Sport and Brand into base categories; less obvious yet stil clear enough Search
+  - Simplified header: merge Sport and Brand into base categories; less obvious yet still clear enough Search
   - Header shall respond more to scrolling
 - Carousel touch control for mobile
   - touch swipe for navigation
