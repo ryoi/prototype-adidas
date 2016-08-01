@@ -259,7 +259,7 @@ a.adidas-product-rate:active {
 .adidas-product-privilege li span {
   color: #222;
 }
-/* Section */ 
+/* Section */
 .adidas-pdp-section {
   position: relative;
   width: 100%;
@@ -651,6 +651,11 @@ ul.adidas-pdp-feature-list {
   }
 }
 @media (min-width: 992px) {
+  .adidas-pdp-main-wrapper {
+    position: relative;
+    max-width: 2272px;
+    margin-top: 0 auto;
+  }
   .adidas-pdp-main {
     position: relative;
     line-height: 0;
