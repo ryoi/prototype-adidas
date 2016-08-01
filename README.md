@@ -12,8 +12,8 @@ See DEMO page [here](https://ryoi.github.io/prototype-adidas/). (Only supports l
 - Resposive design: UI/UX consistancy on mobile, tablet and desktop
 - Full screen layout on desktop. Emphasis on product to elevate customer emotion
 - Simplify interactions, more intuitive UI
-- Benificial product marketing information centralized under CTA
-- Site infomaitn cleanup, re-organization: remove duplications, reduce color usage, etc.
+- Benificial product marketing information centralized right under CTA
+- Site cleanup, re-organize information: remove duplications, reduce color usage, etc.
 
 ## Not included, TODO
 - Global nav
