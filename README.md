@@ -16,7 +16,7 @@ See DEMO page [here](https://ryoi.github.io/prototype-adidas/).
 ## Methods
 - Resposive design: UI/UX consistancy on mobile, tablet and desktop
 - Full screen layout on desktop. Bigger product image to elevate customer emotion
-- Less but more intuitive interactions
+- Less in number but more intuitive interactions
 - Benificial product marketing information centralized under CTA
 - Reorganize site information: remove duplications, reduce color usage
 
@@ -28,4 +28,4 @@ See DEMO page [here](https://ryoi.github.io/prototype-adidas/).
   - touch swipe for navigation
   - touch zooming
 - Sizing Chart
-  - centralize all sizing related info into modal or popup (might contain interaction within)
+  - centralize all sizing related info and interactions
