@@ -10,10 +10,10 @@ See DEMO page [here](https://ryoi.github.io/prototype-adidas/). (Only supports l
 
 ## Methods
 - Resposive design: UI/UX consistancy on mobile, tablet and desktop
-- Full screen layout on desktop. Bigger product image to elevate customer emotion
-- Less in number but more intuitive interactions
+- Full screen layout on desktop. Emphasis on product to elevate customer emotion
+- Simplify interactions, more intuitive UI
 - Benificial product marketing information centralized under CTA
-- Reorganize site information: remove duplications, reduce color usage
+- Site infomaitn cleanup, re-organization: remove duplications, reduce color usage, etc.
 
 ## Not included, TODO
 - Global nav
