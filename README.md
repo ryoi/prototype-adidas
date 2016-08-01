@@ -20,7 +20,13 @@ See DEMO page [here](https://ryoi.github.io/prototype-adidas/).
 - Benificial product marketing information centralized under CTA
 - Reorganize site information: remove duplications, reduce color usage
 
-## Not included
+## Not included, TODO
 - Global nav (header, footer)
+-- Simplified header: merge Sport and Brand into base categories; less obvious yet stil clear enough Search
+-- Header respond more to scrolling
+-- Simplified footer: main content shall be limited to Email subscription, company info, account, support, media, SNS
 - Carousel touch control for mobile
+-- add touch swipe for navigation
+-- add touch zooming
 - Sizing Chart
+-- centralize all sizing related info into modal or popup (might contain interaction within)
