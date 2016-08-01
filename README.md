@@ -2,6 +2,8 @@
 
 See DEMO page [here](https://ryoi.github.io/prototype-adidas/). (Only supports latest Chrome and Safari.)
 
+Also see plan B [here](https://github.com/ryoi/prototype-adidas-2).
+
 ## Design Goals
 - Identify the brand image - energized & cool
 - Identify the objectives - engagement & functionality
