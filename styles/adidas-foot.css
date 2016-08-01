@@ -81,6 +81,9 @@
   color: #999;
 }
 @media (min-width: 768px) and (max-width: 991px) {
+  .adidas-foot-body {
+    margin-top: 20px
+  }
   .adidas-foot-section-wrapper {
     width: 60%;
     float: left;
@@ -106,7 +109,7 @@
 @media (min-width: 992px) {
   .adidas-foot-body {
     max-width: 1300px;
-    margin: 0 auto;
+    margin: 30px auto 0;
   }
   .adidas-foot-section-wrapper {
     width: 60%;
