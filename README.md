@@ -1,11 +1,7 @@
 # PDP Prototype for Adidas
 
 See DEMO page [here](https://ryoi.github.io/prototype-adidas/).
-
-## Notes
-- Only supports latest Chrome and Safari
-- Supports responsive layout, which can be viewed on mobile, tablet and desktop
-- Some UI modules are not fully functional. (eg. topmenu dropdowns, footer, carousel touch event support, sizing chart, etc.)
+Only supports latest Chrome and Safari
 
 ## Design Goals
 - Identify the brand image - energized & cool
