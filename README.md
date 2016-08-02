@@ -3,7 +3,7 @@
 See DEMO page [here](https://ryoi.github.io/prototype-adidas/). (Only supports latest Chrome and Safari.)
 
 ## Design Goals
-- Identify the brand image - energized & cool
+- Identify the brand image - timeless, energized, cool
 - Identify the objectives - engagement & functionality
 - Identify the main focus - product & add to cart
 - Solve above from UX/UI point of view, develop a user friendly, intuitive Design
