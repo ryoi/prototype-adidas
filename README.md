@@ -26,4 +26,4 @@ See DEMO page [here](https://ryoi.github.io/prototype-adidas/). (Only supports l
   - centralize all sizing related info and interactions
 
 ## Plan B
-Yes there is a Plan B. See it [here](https://github.com/ryoi/prototype-adidas-2).
+Yes, there is a Plan B. See it [here](https://github.com/ryoi/prototype-adidas-2).
